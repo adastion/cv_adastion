@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #828282;
+  --color-secondary: #F9FAFF;
+  --color-accent: #FDC435;
+  --color-border: #E8ECF4;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Nunito Sans", "Roboto", "Playfair Display", "Raleway",
+    "Comfortaa", serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}

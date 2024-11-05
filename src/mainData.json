@@ -1,0 +1,14 @@
+{
+  "name": "adastion",
+  "profetion-name": "front-end developer",
+  "navigation": ["about", "projects", "contacts"],
+  "skils": ["vscode","js", "css", "html", "redux", "git", "github", "react", "sass", "tailwind"],
+  "projects": [
+    {
+      "name": "project name",
+      "description": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "preview": "src/images/project-1.webp"
+    }
+  ],
+  "social": ["telegram", "github", "gmail"]
+} 
