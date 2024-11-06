@@ -1,0 +1,26 @@
+.btn {
+  border: 0;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-titles);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid var(--color-titles);
+  height: 43px;
+}
+
+.btn--primary {
+  border-radius: 24px;
+}
+
+.btn--secondary {
+  background-color: var(--color-accent);
+  border: none;
+}
