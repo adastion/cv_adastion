@@ -1,0 +1,27 @@
+.navigation {
+
+}
+
+.navigation__list {
+  display: flex;
+  gap: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.navigation__item {
+  & a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color-titles);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    
+    &:hover,
+    &:focus {
+      transform: scale(1.2);
+      outline: none;
+    }
+  }
+  
+}

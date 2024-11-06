@@ -1,8 +1,15 @@
 :root {
   --color-primary: #828282;
-  --color-secondary: #F9FAFF;
-  --color-accent: #FDC435;
-  --color-border: #E8ECF4;
+  --color-secondary: #f9faff;
+  --color-accent: #fdc435;
+  --color-border: #e8ecf4;
+  --color-titles: #25282B;
+
+  --title-primary: "64px";
+  --title-secondary: "48px";
+  --title-cards: "40px";
+
+  --max-width-container: 1230px;
 }
 
 html,
@@ -17,4 +24,9 @@ body {
   font-size: 18px;
   color: var(--color-primary);
   background-color: var(--color-secondary);
+  position: relative;
+}
+
+#root {
+  width: 100%;
 }

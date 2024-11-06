@@ -1,18 +1,16 @@
-import "./App.css";
+import { FC } from "react";
+import "./app.css";
+import "./css/container.css";
+import { Header } from "./componets/header/Header.js";
+import { TypeData } from "./main.js";
 
-function App() {
+export const App: FC<TypeData> = ({ data }) => {
   return (
     <div className="app">
-      <header>
-        <div className="logo"></div>
-        <nav className="navigation">
-          <ul className="navigation__list">
-            <li className="navigation__item"></li>
-          </ul>
-        </nav>
-      </header>
+      <Header name={data.name} navigation={data.navigation} />
+      <p>
+        lore
+      </p>
     </div>
   );
-}
-
-export default App;
+};
