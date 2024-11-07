@@ -3,16 +3,18 @@ import { App } from "./App.tsx";
 import "./index.css";
 
 export type TypeData = {
-  name: string;
-  profetionName?: string;
-  navigation: string[];
-  skils: string[];
-  projects: {
+  data: {
     name: string;
-    description: string;
-    preview: string;
-  }[];
-  social: string[];
+    profetionName?: string;
+    navigation: string[];
+    skils: string[];
+    projects: {
+      name: string;
+      description: string;
+      preview: string;
+    }[];
+    social: string[];
+  };
 };
 
 const mainData = {
