@@ -2,24 +2,13 @@ import { createRoot } from "react-dom/client";
 import { App } from "./App.tsx";
 import "./index.css";
 
-export type TypeData = {
-  data: {
-    name: string;
-    profetionName?: string;
-    navigation: string[];
-    skils: string[];
-    projects: {
-      name: string;
-      description: string;
-      preview: string;
-    }[];
-    social: string[];
-  };
-};
-
 const mainData = {
   name: "adastion",
   profetionName: "front-end developer",
+  greeting: {
+    title: "Hello,  my name is Vahid Navazan",
+    message: "Short text with details about you, what you do or your professional career. You can add more information on the about page."
+  },
   navigation: ["about", "projects", "contacts"],
   skils: [
     "vscode",

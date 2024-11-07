@@ -14,4 +14,9 @@ ol {
 a {
   color: blue;
   text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
 }

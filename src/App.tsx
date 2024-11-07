@@ -1,19 +1,37 @@
 import { FC } from "react";
 import "./app.css";
-import "./css/container.css";
+import { Banner } from "./componets/banner/Banner";
 import { Header } from "./componets/header/Header";
-import { TypeData } from "./main.js";
-import { Title } from "./componets/titles/Title";
+import "./css/container.css";
+
+export type TypeData = {
+  data: {
+    name: string;
+    profetionName: string;
+    greeting: {
+      title: string;
+      message: string;
+    };
+    navigation: string[];
+    skils: string[];
+    projects: {
+      name: string;
+      description: string;
+      preview: string;
+    }[];
+    social: string[];
+  };
+};
 
 export const App: FC<TypeData> = ({ data }) => {
   return (
     <div className="app">
       <Header name={data.name} navigation={data.navigation} />
-      <p>lore</p>
-
-      <Title name={"Hello,  my name is Vahid Navazan"} status={"main"} />
-      <Title name={"Skills"} status={"h2"} />
-      <Title name={"Project Name"} status={"h3"} />
+      <Banner
+        title={data.greeting.title}
+        text={data.greeting.message}
+        specialty={data.profetionName}
+      />
     </div>
   );
 };

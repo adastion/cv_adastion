@@ -1,4 +1,5 @@
 import { FC } from "react";
+import "./logo.css"
 type TypeLogoProps = {
   nameLogo: string;
   src?: string;
@@ -7,7 +8,10 @@ type TypeLogoProps = {
 export const Logo: FC<TypeLogoProps> = ({ nameLogo }) => {
   return (
     <div className="logo">
-      <a href="#">{nameLogo}</a>
+      <a href="#">
+        {/* <img src={src} alt={"logotype-"+ nameLogo} /> */}
+        {nameLogo}
+      </a>
     </div>
   );
 };
