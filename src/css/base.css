@@ -10,6 +10,10 @@
   --title-cards: "40px";
 
   --max-width-container: 1230px;
+
+  --screens-desktop: 991px; 
+  --screens-tablet: 768px; 
+  --screens-phone: 425px; 
 }
 
 html,

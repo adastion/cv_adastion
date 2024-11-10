@@ -6,8 +6,9 @@ const mainData = {
   name: "adastion",
   profetionName: "front-end developer",
   greeting: {
-    title: "Hello,  my name is Vahid Navazan",
-    message: "Short text with details about you, what you do or your professional career. You can add more information on the about page."
+    title: "Hello,  my name is Andrey",
+    message:
+      "Short text with details about you, what you do or your professional career. You can add more information on the about page.",
   },
   navigation: ["about", "projects", "contacts"],
   skils: [
