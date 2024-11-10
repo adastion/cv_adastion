@@ -1,6 +1,6 @@
 import { FC } from "react";
-import { Logo } from "../logo/Logo";
-import { Navigation } from "../navigation/Navigation";
+import { Logo } from "../../logo/Logo";
+import { Navigation } from "../../navigation/Navigation";
 import "./header.css";
 
 export type TypeHeaderProps = {

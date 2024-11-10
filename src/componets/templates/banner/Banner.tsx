@@ -1,8 +1,8 @@
 import { FC } from "react";
 import "./banner.css";
-import { Title } from "../titles/Title";
-import { Button } from "./../buttons/Button";
-import avatar from "../../imges/ava.webp";
+import { Title } from "../../titles/Title";
+import { Button } from "./../../buttons/Button";
+import avatar from "../../../imges/ava.webp";
 
 type TypeBannerProps = {
   title: string;

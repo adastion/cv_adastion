@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./app.css";
-import { Banner } from "./componets/banner/Banner";
-import { Header } from "./componets/header/Header";
+import { Banner } from "./componets/templates/banner/Banner";
+import { Header } from "./componets/templates/header/Header";
 import "./css/container.css";
 
 export type TypeData = {
