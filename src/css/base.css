@@ -3,7 +3,7 @@
   --color-secondary: #f9faff;
   --color-accent: #fdc435;
   --color-border: #e8ecf4;
-  --color-titles: #25282B;
+  --color-titles: #25282b;
 
   --title-primary: "64px";
   --title-secondary: "48px";
@@ -11,9 +11,9 @@
 
   --max-width-container: 1230px;
 
-  --screens-desktop: 991px; 
-  --screens-tablet: 768px; 
-  --screens-phone: 425px; 
+  --screens-desktop: 991px;
+  --screens-tablet: 768px;
+  --screens-phone: 425px;
 }
 
 html,
@@ -29,6 +29,10 @@ body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
   position: relative;
+}
+
+.scroll-hidden {
+  overflow: hidden;
 }
 
 #root {

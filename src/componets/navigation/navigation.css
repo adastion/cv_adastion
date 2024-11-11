@@ -1,5 +1,35 @@
 .navigation {
+  @media screen and (max-width: 425px) {
+    position: absolute;
+    inset: 0;
+    left: -110%;
+    width: 0;
+    height: 100vh;
+    backdrop-filter: brightness(50%);
+    padding: 30px;
+    padding-top: 100px;
+    transition: all 0.5s ease-in-out;
 
+    & .navigation__list {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 20px;
+    }
+
+    & .navigation__item {
+      padding: 5px;
+      border-bottom: 2px solid var(--color-accent);
+
+      & a {
+        color: var(--color-accent);
+        font-size: 28px;
+      }
+    }
+  }
+}
+.navigation--active {
+  left: 0;
+  width: 100%;
 }
 
 .navigation__list {
@@ -16,12 +46,11 @@
     color: var(--color-titles);
     transition: all 0.3s ease-in-out;
     display: inline-block;
-    
+
     &:hover,
     &:focus {
       transform: scale(1.2);
       outline: none;
     }
   }
-  
 }

@@ -28,3 +28,33 @@
   background-color: var(--color-accent);
   border: none;
 }
+
+.btn--menu {
+  width: 36px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  background: linear-gradient(
+    var(--color-titles) 20%,
+    transparent 20% 40%,
+    var(--color-titles) 40% 60%,
+    transparent 60% 80%,
+    var(--color-titles) 80% 100%
+  );
+  display: none;
+
+  @media screen and (max-width: 425px) {
+    display: flex;
+    z-index: 20;
+  }
+}
+
+.btn--menu-open {
+  background: linear-gradient(
+    var(--color-accent) 20%,
+    transparent 20% 40%,
+    var(--color-accent) 40% 60%,
+    transparent 60% 80%,
+    var(--color-accent) 80% 100%
+  );
+}
